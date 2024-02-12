@@ -2,7 +2,7 @@
 
 Stunning website showcasing your skills and personality as a developer.
 
-![Business Card Project preview image](https://github.com/elise-bigdevsoon/big-dev-soon-business-card/blob/main/project-preview.png?raw=true)
+![Business Card Project preview image]([https://github.com/elise-bigdevsoon/big-dev-soon-business-card/blob/main/project-preview.png?raw=true](https://65ca0b61e29cb7dc6786b084--phenomenal-hotteok-ade3f5.netlify.app/))
 
 ## Hello to [BigDevSoon](https://bigdevsoon.me/) 👋
 
