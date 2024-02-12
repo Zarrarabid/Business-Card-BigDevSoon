@@ -1,0 +1,128 @@
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+ @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+  .swing-in-top-fwd {
+	-webkit-animation: swing-in-top-fwd 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.23s both;
+	        animation: swing-in-top-fwd 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.23s both;
+}
+
+@-webkit-keyframes swing-in-top-fwd {
+    0% {
+      -webkit-transform: rotateX(-100deg);
+              transform: rotateX(-100deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 1;
+    }
+  }
+  @keyframes swing-in-top-fwd {
+    0% {
+      -webkit-transform: rotateX(-100deg);
+              transform: rotateX(-100deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 1;
+    }
+  }
+  .cube1{
+    position: absolute;
+        background-color: white;
+        width: 35px;
+        height: 35px;
+        left: -17px;
+        top: 70px;
+        z-index: 999;
+  }
+  .circlecube:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(17, 17, 17, 0.3);
+
+  }
+  .cube3:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(17, 17, 17, 0.3);
+
+  }
+  .cube2:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(17, 17, 17, 0.3);
+
+  }
+  .cube1:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(255, 254, 254, 0.3);
+  }
+  .twitter{
+    width: 18px;
+    height: 18px;
+    transition: 0.3s;
+
+  }
+  .linkedin{
+    width: 18px;
+    height: 18px;
+    transition: 0.3s;
+
+  }
+  .github{
+    width: 18px;
+    height: 18px;
+    transition: 0.3s;
+
+  }
+  .twitter:hover{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .linkedin:hover{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .github:hover{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
